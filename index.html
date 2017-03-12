@@ -299,14 +299,16 @@
 				</div>
 				
 				<div class="col-lg-6">
-					<form role="form">
+					<form role="form" method="POST" action="http://formspree.io/singhhimanshu2408@gmail.com">
 					  <div class="form-group">
+					    <input type="hidden" name="_subject" value="New Client!!" />
+  					    <input type="text" name="_gotcha" style="display:none" />
 					    <label for="InputName">Your Name</label>
-					    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter name" required>
+					    <input type="text" name="name" class="form-control" id="InputName" placeholder="Enter name" required>
 					    <label for="InputEmail">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required="">
+					    <input type="email" name="email"class="form-control" id="InputEmail" placeholder="Enter email" required>
 					    <label for="InputMessage">Message</label>
-					    <textarea class="form-control" rows="3" required=""></textarea>
+					    <textarea name="message" class="form-control" rows="3" id="InputMessage" required></textarea>
 					  </div>
 					  <button type="submit" class="btn btn-default submitButton">Submit</button>
 					</form>
