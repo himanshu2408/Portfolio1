@@ -301,13 +301,9 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 }
 
-.name-label {
-	width: 60px;
-	height: 60px;
-	margin: 0 auto 45px;
-	border-top: 1px solid #000;
-	background: url(../img/name-label.png) center bottom no-repeat;
-	background-size: 35px 35px;
+.name-label img {
+	width: 50px;
+	height: 50px;
 }
 
 .name-zig {
@@ -590,3 +586,4 @@ h1, h2, h3, h4, h5, h6 {
 #here:hover{
 	color: #8cb942;
 }
+

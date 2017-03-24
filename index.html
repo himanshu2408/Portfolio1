@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Full Stack Web Developer" content="">
     <meta name="Himanshu Singh" content="">
+    <meta name="referrer" content="origin">
     <link rel="shortcut icon" href="">
 
     <title>Himanshu - Full Stack Developer</title>
@@ -16,6 +17,8 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/rotatingcard.css" rel="stylesheet">
+    <link href="assets/css/workcard.css" rel="stylesheet">
     <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -71,9 +74,50 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 name">
-					<img class="img-responsive img-center thumbnail" src="assets/img/pic.jpg" style="margin-top: 30px;">
-					<p>HIMANSHU SINGH</p>
-					<div class="name-label"></div>
+					<br>
+					<div class="cardWrapper">
+					  <div class="cardFrame intro">
+					    <div class="card-container">
+					      <div class="card">
+					        <div class="front">
+					          <div class="coverF"><img class="img-responsive thumbnail" src="assets/img/pic.jpg" /></div>
+					        </div>
+					        <!-- end front panel -->
+					        <div class="back">
+					          <div class="cover"><img src="https://unsplash.it/400/300/?random" /></div>
+					          <div class="user"><img class="img-responsive" src="assets/img/pic.jpg" /></div>
+					          <div class="content">
+					            <h3>HIMANSHU SINGH</h3>
+					            <br>
+					            Full Stack Developer, <br>
+					            Senior Year, B.Tech Student,<br>
+					            IIT Guwahati,<br>
+					            India
+					            <br><br>
+					          </div>
+					         
+					          <div class="card-social">
+					          	<a href="https://www.linkedin.com/in/himanshu-s/" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp&nbsp&nbsp
+									<a href="https://github.com/himanshu2408" title="GitHub" target="_blank"><i class="fa fa-github"></i></a>&nbsp&nbsp&nbsp
+									<a href="skype:himanshu.singh545?userinfo" target="_blank"><i class="fa fa-skype" title="Skype"></i></a>&nbsp&nbsp&nbsp
+									<a href="mailto:singhhimanshu2408@gmail.com"><i class="fa fa-envelope" title="Mail" target="_blank"></i></a>
+					          </div>
+					        </div>
+					        <!-- end back panel -->
+					      </div>
+					      <!-- end card -->
+					    </div>
+					    <!-- end card-container -->
+					  </div>
+					  
+					  <!-- end cardFrame -->
+					</div>
+					<!-- end cardWrapper -->
+
+					<div class="name-label">
+						<img src="assets/img/name-label.png">
+					</div>
+
 				</div><!--/col-lg-4-->
 				<div class="col-lg-8 name-desc">
 					<h2 class="rubber">TALENTED & MOTIVATED<br/>FULL-STACK DEVELOPER <br/>FROM INDIA</h2>
@@ -82,10 +126,11 @@
 					<div class="col-md-6">
 						<p>I'm a final year undergraduate student pursuing B.Tech from I.I.T. Guwahati, India. I'm a Coding enthusiast and I'm well versed in many skills around technology & product development. I like to build things – usually with technology.
 						</p>
-						<p>Through my journey at I.I.T. Guwahati, India, I've developed a wide range of skills like HTML + CSS + Javascript, Bootstrap, AngularJS to NodeJS, Express, Cordova Hybrid application and Ionic (mobile applications frameworks) including Data Structures and Algorithms, C++, Python.</p>
+						<p>New experience and challanges are my things. If you have any cool projects or opportunities, get in touch!</p>
+						
 					</div>
 					<div class="col-md-6">
-						<p>New experience and challanges are my things. If you have any cool projects or opportunities, get in touch!</p>
+						<p>Through my journey at I.I.T. Guwahati, India, I've developed a wide range of skills like HTML + CSS + Javascript, Bootstrap, AngularJS to NodeJS, Express, Cordova Hybrid application and Ionic (mobile applications frameworks) and other programming languages like C++ and Python.</p>
 						<p>If you are seeking a Web Developer or looking to hire, you can get in touch with me <a href="#contact" id="here" class="smoothScroll">here</a>.</p>
 					</div>
 					
@@ -106,84 +151,129 @@
 		<div class="container">
 			<div class="row">
 				<h1 class="flash">SOME OF MY LATEST WORKS</h1>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-					<div class="project-wrapper">
-	                    <div class="project">
-	                        <div class="photo-wrapper">
-	                            <div class="photo">
-	                            	<a class="fancybox" href="assets/img/portfolio/port04.jpg"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt=""></a>
-	                            </div>
-	                            <div class="overlay"></div>
-	                        </div>
-	                    </div>
-	                </div>
-				</div><!-- col-lg-4 -->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+					<div class="no-padding lib-item" data-category="ui">
+		                <div class="lib-panel">
+		                    <div class="row box-shadow">
+		                        <div class="col-md-6">
+		                            <div class="project-wrapper">
+					                    <div class="project">
+					                        <div class="photo-wrapper">
+					                            <div class="photo">
+					                            	<a class="fancybox lib-img" href="assets/img/con_m.png"><img class="img-responsive" src="assets/img/con_m.png" alt="conFusion Mobile App"></a>
+					                            </div>
+					                            <div class="overlay"></div>
+					                        </div>
+					                    </div>
+					                </div>
+		                        </div>
+		                        <div class="col-md-6">
+		                        	<div class="lib-row lib-header">
+		                                conFusion Mobile App
+		                                <div class="lib-header-seperator"></div>
+		                            </div><br>
+		                            <div class="lib-row lib-desc">
+		                                For the development of this mobile application I used technologies like HTML5, CSS3, AngularJS, Ionic framework and Cordova modules to access the native mobile platform's capabilities.<br><br>
+										I also used Amazon Web Services (AWS) EC2 instance as a virtual machine and hosted my json-server (REST API) on it for Client-Server communication between my mobile application and a RESTful server.
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+
+				</div><!--/col-lg-4-->
 				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-					<div class="project-wrapper">
-	                    <div class="project">
-	                        <div class="photo-wrapper">
-	                            <div class="photo">
-	                            	<a class="fancybox" href="assets/img/portfolio/port05.jpg"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt=""></a>
-	                            </div>
-	                            <div class="overlay"></div>
-	                        </div>
-	                    </div>
-	                </div>
-				</div><!-- col-lg-4 -->
-				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-					<div class="project-wrapper">
-	                    <div class="project">
-	                        <div class="photo-wrapper">
-	                            <div class="photo">
-	                            	<a class="fancybox" href="assets/img/portfolio/port06.jpg"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt=""></a>
-	                            </div>
-	                            <div class="overlay"></div>
-	                        </div>
-	                    </div>
-	                </div>
-				</div><!-- col-lg-4 -->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+					<div class="no-padding lib-item" data-category="ui">
+		                <div class="lib-panel">
+		                    <div class="row box-shadow">
+		                        <div class="col-md-6">
+		                            <div class="project-wrapper">
+					                    <div class="project">
+					                        <div class="photo-wrapper">
+					                            <div class="photo">
+					                            	<a class="fancybox lib-img" href="assets/img/reddits.png"><img class="img-responsive" src="assets/img/reddits.png" alt="Reddits Mobile App"></a>
+					                            </div>
+					                            <div class="overlay"></div>
+					                        </div>
+					                    </div>
+					                </div>
+		                        </div>
+		                        <div class="col-md-6">
+		                        	<div class="lib-row lib-header">
+		                                Reddits Mobile App
+		                                <div class="lib-header-seperator"></div><br>
+		                            </div>
+		                            <div class="lib-row lib-desc">
+		                                It is an Ionic 2 mobile application that fetches Subreddits from reddit.com API and then display it.<br><br>
+		                                Technologies used: Ionic Framework (2), AngularJS
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+
+				</div><!--/col-lg-6-->
 			</div><!-- /row -->
 	
 			<div class="row mt">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-					<div class="project-wrapper">
-	                    <div class="project">
-	                        <div class="photo-wrapper">
-	                            <div class="photo">
-	                            	<a class="fancybox" href="assets/img/portfolio/port01.jpg"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt=""></a>
-	                            </div>
-	                            <div class="overlay"></div>
-	                        </div>
-	                    </div>
-	                </div>
-				</div><!-- col-lg-4 -->
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+					<div class="no-padding lib-item" data-category="ui">
+		                <div class="lib-panel">
+		                    <div class="row box-shadow">
+		                        <div class="col-md-6">
+		                            <div class="project-wrapper">
+					                    <div class="project">
+					                        <div class="photo-wrapper">
+					                            <div class="photo">
+					                            	<a class="fancybox lib-img" href="assets/img/con_w.PNG"><img class="img-responsive" src="assets/img/con_w.PNG" alt="conFusion WebApp"></a>
+					                            </div>
+					                            <div class="overlay"></div>
+					                        </div>
+					                    </div>
+					                </div>
+					                <div class="lib-row lib-header">
+		                                conFusion WebApp
+		                            </div>
+		                        </div>
+		                        <div class="col-md-6"><br>
+		                            <div class="lib-row lib-desc">
+		                                For the development of this web application I used various technologies like HTML5, CSS3, Javascript, Bootstrap, AngularJS. On the Server side, I used json-server(REST API) which is hosted on Amazon Web Services (AWS) EC2 instance.
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+				</div><!-- col-lg-6 -->
 				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-					<div class="project-wrapper">
-	                    <div class="project">
-	                        <div class="photo-wrapper">
-	                            <div class="photo">
-	                            	<a class="fancybox" href="assets/img/portfolio/port02.jpg"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt=""></a>
-	                            </div>
-	                            <div class="overlay"></div>
-	                        </div>
-	                    </div>
-	                </div>
-				</div><!-- col-lg-4 -->
 				
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-					<div class="project-wrapper">
-	                    <div class="project">
-	                        <div class="photo-wrapper">
-	                            <div class="photo">
-	                            	<a class="fancybox" href="assets/img/portfolio/port03.jpg"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt=""></a>
-	                            </div>
-	                            <div class="overlay"></div>
-	                        </div>
-	                    </div>
-	                </div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 desc">
+					<div class="no-padding lib-item" data-category="ui">
+		                <div class="lib-panel">
+		                    <div class="row box-shadow">
+		                        <div class="col-md-6">
+		                            <div class="project-wrapper">
+					                    <div class="project">
+					                        <div class="photo-wrapper">
+					                            <div class="photo">
+					                            	<a class="fancybox lib-img" href="assets/img/name-label.png"><img class="img-responsive" src="assets/img/name-label.png" alt="Python Scraper" style="width:130px; height:130px;"></a>
+					                            </div>
+					                            <div class="overlay"></div>
+					                        </div>
+					                    </div>
+					                </div>
+					                <div class="lib-row lib-header">
+		                                Web Scraper/Crawler
+		                            </div>
+		                        </div>
+		                        <div class="col-md-6"><br>
+		                            <div class="lib-row lib-desc">
+		                                I made this program which fetches the data related to jobs and then stores it in a sqlite database which is then converted into json object and then displayed on a web page using HTML5, CSS3, Bootstrap, AngularJS.
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
 				</div><!-- col-lg-4 -->
 			</div><!-- /row -->
 		</div><!--/container -->
@@ -299,14 +389,17 @@
 				</div>
 				
 				<div class="col-lg-6">
-					<form role="form">
+					<form role="form" method="POST" action="http://formspree.io/singhhimanshu2408@gmail.com">
 					  <div class="form-group">
+					    <input type="hidden" name="_subject" value="New Client!!" />
+  					    <input type="text" name="_gotcha" style="display:none" />
+					    <input type="hidden" name="_next" value="//himanshu2408.github.io/Portfolio1/" />
 					    <label for="InputName">Your Name</label>
-					    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter name" required>
+					    <input type="text" name="name" class="form-control" id="InputName" placeholder="Enter name" required>
 					    <label for="InputEmail">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" required="">
+					    <input type="email" name="email"class="form-control" id="InputEmail" placeholder="Enter email" required>
 					    <label for="InputMessage">Message</label>
-					    <textarea class="form-control" rows="3" required=""></textarea>
+					    <textarea name="message" class="form-control" rows="3" id="InputMessage" required></textarea>
 					  </div>
 					  <button type="submit" class="btn btn-default submitButton">Submit</button>
 					</form>
