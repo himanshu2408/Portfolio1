@@ -586,4 +586,10 @@ h1, h2, h3, h4, h5, h6 {
 #here:hover{
 	color: #8cb942;
 }
-
+.project-header{
+	color: #8cb942;
+	text-decoration: none;
+}
+.project-header:hover{
+	color: #8cb942;
+}
